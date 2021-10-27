@@ -140,6 +140,7 @@ body{
 }
 :root {
     --primary-color: #7c3aed;
+    /* --primary-color:bluesss */
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
   }
@@ -152,7 +153,6 @@ body{
      
      }
   .nav-container{
-      background-color;
 
   }
  .home-size {
@@ -270,5 +270,6 @@ header{
 nav .link-active{
     font-weight: bolder;
 }
+
 
 
