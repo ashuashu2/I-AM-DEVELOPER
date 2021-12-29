@@ -1,143 +1,15 @@
- /* /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-:root {
-    --primary-color: rgb(30, 58, 151)
-     ;
-}
-
-
-body {
-    font-family: sans-serif; "montserrat"
-  margin: 0px auto;
-  width: 100%;
-  max-width : 85%
-
-}
-.container {
-    padding-left: 0rem;
-    padding-right: 5rem;
-}
-.container-fluid
-{
-    max-width: 600px;
-    margin: auto;
-}
-.container {
-    max-width: 600px;
-    margin: auto;
-}
-
-.primary-links {
-    background-color: var(--primary-color);
-    border-radius: 5rem;
-    margin: auto;
-}
-.link {
-    text-decoration: solid;
-}
-.secondary-links{
-    color: red;
-    background-color: tomato;
-    border-radius: 0.5rem;
-    margin: auto;
-}
-hr{
-
-    margin: 2em;
-}
-
-.list-non-bullet {
-    list-style: none;
-}
-.list-item-inline {
-    display: inline-flex;
-}
-/* 
-li  {
-    display: inline-block;
-    display: inline-flex; */
-
-}
-
-
-/* ul {
-    text-align: center;
-}
-li .list-item-inline {
-    display: inline;
-    display: inline-block;
-    text-align: center;
-}
-.navigation 
-{
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-border-bottom-left-radius: 1rem;
-
- }
-.navigation .link {
-    color: white;
-}
-.navigation .newbrand {
-    font-weight: bold;
-    font-size: none;
-} 
-.new-brand a {
-    text-decoration: none;
-    color: inherit;
-}
-.navigation .nav-pills {
-    text-align: right;
-    margin: 0.6rem 1rem;
-}
-.navigation .link-active {
-    font-weight: bold;
-} 
-
-.navigation
-
-.hero{
-    padding: 2rem;
-}
-.hero .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-.hero .hero-heading {
-    padding: 1rem;
-    color: var(--primary-color);
-    
-}
-.hero .hero-heading .heading-inverted {
-    color: yellow;
-}
-hr .line {
-    color: white;
-}
-
-nav {
-    background-color: blac
-}
-
-
-
-body { 
-background-color: whitesmoke;
-
-}
-nav{
-    background-color:#FCA5A5;
-}
-
- */
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body{
-    font-family: 'EB Garamond', serif;
-}
+    font-family: sans-serif; "montserrat"
+
+        margin: 0px auto;
+        max-width: 85%;
+        width: 100%;
+      }
+      
+
 :root {
     --primary-color: #7c3aed;
 
@@ -145,74 +17,80 @@ body{
     --dark-gray: #6b7280;
   }
 
- nav .nav-size{
-     font-size: x-large;
-     font-weight: bold;
-     color: #f3f4f6;
-     
-     
-     }
-  .nav-container{
-
-  }
- .home-size {
-     font-weight: bold;
- }
-.nav-container {
-    background-color: var(--primary-color);
-    border-bottom-left-radius: 2rem;
-    padding: 1rem;
-    margin: auto;
-    padding-left: 4rem;
-}
-.home-decoration  {
-    font-weight: bold;
-    color: white;
-    text-align: right;
-}
-.nav-buttons {
-    color: white;
-    font-weight:bolder ;
-    list-style: none;
-    display: inline;
-    color: #f3f4f6;
-    margin: 10rem;
-    
-    ;
-}
-.projects-decoration{
-    color: white;
-    text-align: right;
-}
-.blogs-decoration{
-    color: white;
-    text-align: right;
-}
-
-.blog-button{
-    background-color: blue;
-    display: inline-block;
-    border-radius: 2vh;
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
-    margin-left: 15rem;
-    
-   
-
-}
-.project-button {
-    background-color: blue;
-    display: inline-block;
-    border-radius: 2vh;
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
-    margin-left: 15rem;
-}
 hr {
     margin: 1rem;
 }
+.off-white {
+    background-color: floralwhite;
+}
+
+
+header{
+  
+    max-width: 80%;
+    width: 550px;
+    margin: auto;
+    display: block;
+    padding: 2rem;
+    padding-top: 5rem;
+ 
+}
+
+
+/* nav .link-active{
+    font-weight: bolder;
+} */
+
+
+
+
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  
+  .navigation .nav-brand {
+    font-weight: bold;
+  }
+  
+  .nav-brand a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+  }
+  
+  .navigation .link {
+      font-size: larger;
+    color: white;
+  }
+  
+  .navigation .link-active {
+    font-weight: bold;
+  }
+  .list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  
+
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  .link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+
+
 .off-white {
     background-color: floralwhite;
 }
@@ -243,33 +121,48 @@ hr {
     border-bottom-left-radius: 5rem ;
     font-size: larger;
 }
-.image-deco{
-    
-}
-header{
-    margin-left: 10rem;
-    display: inline;
-    display: block;
-}
-.nav-container.list-item-inline{
-    display: inline;
-    text-align: right;
-}
-
-.list-non-bullet{
-    text-align: right;
-    list-style: none;
-    display: inline;
+.blog-button{
+    background-color: blue;
+    display: inline-block;
+    border-radius: 2vh;
+    color: white;
+    margin: 1rem;
     padding: 1rem;
-    font-weight: bolder;
-
-
+    margin-left: 15rem;
+    
+   
 
 }
-
-nav .link-active{
-    font-weight: bolder;
+.project-button {
+    background-color: blue;
+    display: inline-block;
+    border-radius: 2vh;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 15rem;
 }
 
 
 
+  .footer {
+    background-color: var(--primary-color);
+     padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link {
+    color: white;
+  }
+  
+  .footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .footer ul {
+    padding-inline-start: 0px;
+  }
+  
