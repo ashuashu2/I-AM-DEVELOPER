@@ -326,7 +326,10 @@ font-family:  cursive;
   }
 
   .projects-links-div{
-    text-align: center;
+    /* text-align: center; */
+    /* display: flex; */
+
+    /* flex-wrap: wrap; */
 
     margin-top: 5rem;
   }
