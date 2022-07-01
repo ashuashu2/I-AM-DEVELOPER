@@ -1,86 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A developer site</title>
 </head>
-<link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="style.css">
 <style>
-  .heading-name{
-      font-weight: bolder;
-    }
 
 
 </style>
-<body>
-    <nav class="navigation container">
-     <div class="nav-brand">I  AM DEVELOPER</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-            <a class="link link-active"  href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="blogs.html">Blogs</a>
-            </li>
-        </ul>
-        </nav>
-        <header>  
 
-            <img  src="images/hero..svg"/>
-            <h2>Ashutosh  <strong> <span style="color: blue;" > A Web Developer</span> </strong>  </h2>
+<body>
+    <div class="bigger-container">
+        <nav class="nav-container">
+            <div class="nav-brand">I AM DEVELOPER</div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li >
+                        <a href="blogs.html">Blogs</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <header class="header-container">
+            <div class="header-text">
+
+                <h2>Hey,i'm ashutosh birthare</h2>
+                <small>(Front-end Web Developer... )</small>
+                <h1>I enjoy designing</h1>
+                <h1>tech websites and</h1>
+                <h1>digita products</h1>
+                <button class="button-projects"><a class="button-link" href="projects.html">view my
+                        projects</a></button>
+
+            </div>
+
+            <div class="header-image">
+                <img class="images1" src="images/hero3.jpg" />
+
+            </div>
+
+
+
 
         </header>
+        <div class="section-container">
+
+
+            <section class="sections">
+                <button class="section-heading">Skills</button>
+                <div class="technology-text">I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</div>
+            </section>
+            
+            <section class="sections">
+                <button type="disable" class="section-heading">Projects</button>
+                <div class="project-text">I like to showcase my work and thus, you can see my projects hosted online
+                </div>
+                <button class="project-button"> <a class="button-link" href="projects.html">View My Projects</a></button>
+
+
+            </section>
+            
+            <section class="sections"">
+                <button class="section-heading">Blogs</button>
+                <div class="blog-text">I am also working on some technical and non techincal blogs. I like to document
+                    my journey of learning.</div>
+
+                <button class="blog-button"><a class="button-link" href="blogs.html">View My Blogs</a></button>
+
+
+            </section>
+        </div>
         <hr>
-       <section class="off-white">
-            <h2>Technology</h2>
-            <div class="technology-text">I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</div>
-        </section>
-        <hr>
-        <section class="white">
-            <h2>Projects</h2>
-            <div class="project-text">I like to showcase my work and thus, you can see my projects hosted online</div>
-            <a class="project-button" href="projects.html">View My Projects</a>
 
-        </section>
-        <hr>
-        <section class="off-white">
-            <h2>Blogs</h2>
-            <div class="blog-text">I am also working on some technical and non techincal blogs. I like to document my journey of learning.</div>
-            <a class="blog-button" href="blogs.html">View My Blogs</a>
-        
+        <footer class="footer-div">
+            <h2 class="footer-heading"> Social media presence</h2>
+            <div class="links1"> 
+            <ul>
+                <li>
+                    <a class="link" href="https://www.instagram.com/ashu_birthare/"> <img class="icons" src="./images/icons8-instagram-48.png" alt="">  </a>
+                </li>
+                <li >
+                    <a class="link" href="https://www.twitter.com/Ashubirthare123/"><img class="icons" src="./images/twitter.png" alt="">  </a>
 
-        </section>
-        <hr>
+                </li>
+                <li>
+                    
+                    <a class="link" href="https://t.me/ashutoshbirthare">  <img class="icons" src="./images/icons8-telegram-app.gif" alt=""> </a>
+                </li>
+                <li>
+                    <a class="link" href="https://github.com/ashuashu2/"> <strong><img class="icons github" src="./images/github.png" alt="">  </a>
+                </li>
 
-        <footer class="footer">
-            <h2 class="footer-header>" Social media presence</h2>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline">
-                <a class="link" href="https://www.instagram.com/ashu_birthare/"> <strong >Instagram</strong> </a>
-            </li>
-            <li class="list-item-inline"> 
-                <a  class="link" href="https://www.twitter.com/Ashubirthare123/"> <strong>Twitter</strong> </a>
-
-            </li>
-            <li class="list-item-inline">
-                <a  class="link" href="https://t.me/ashutoshbirthare"> <strong > Telegram </strong> </a>
-            </li>
-            <li class="list-item-inline">
-                <a  class="link" href="https://github.com/ashuashu2/"> <strong > Github </strong> </a>
-            </li>
-
-        </ul>
+            </ul>
+        </div>
         </footer>
+    </div>
 
 
 
 
 
-    
+
+
 </body>
+
 </html>
