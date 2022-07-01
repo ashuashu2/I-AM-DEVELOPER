@@ -262,8 +262,8 @@ margin-bottom: 0.5rem;
 
 
   .header2-container{
-    margin-top: 5rem;
-    height: 80vh;
+    margin-top: 10rem;
+    height: 70vh;
     background-color: black;
     color: aliceblue;
     display:  flex;
@@ -275,7 +275,6 @@ margin-bottom: 0.5rem;
   }
   
   .images2{
-    /* border-radius: 50%; */
     margin-top: 10rem;
     box-shadow: 20px 20px 30px 30px;
     width: 100%;
@@ -283,13 +282,13 @@ margin-bottom: 0.5rem;
      
   }
   .header2-text{
-    margin-right:  auto ;
 font-family:  cursive;
     margin-bottom: 5rem;
-    margin-right: 200px;
+    
     color: aliceblue;
     margin-top: 3rem;
     margin-bottom: 10rem;
+    width: 100%;
 
 
    
@@ -304,11 +303,50 @@ font-family:  cursive;
     color: aliceblue;
     margin-top: 3rem;
   }
+  .projects-1st-link{
+    color: aliceblue;
+    background-color: rgb(30, 100, 30);
+    font-size: x-large;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+  
+  }
+  .projects-2nd-link{
+    color: aliceblue;
+    background-color: rgb(26, 196, 26);
+    font-size: x-large;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-top: 3rem;
+  
+  }
+
+  .projects-links-div{
+    text-align: center;
+
+    margin-top: 5rem;
+  }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -333,7 +371,8 @@ font-family:  cursive;
     
     }
     html{
-      font-size: 70%;
+      font-size: 80%;
+      /* font-weight: bolder/; */
     }
 
     
@@ -383,6 +422,24 @@ font-family:  cursive;
     }
    
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
  @media screen and (max-width: 700px) {
@@ -434,7 +491,7 @@ font-family:  cursive;
        
       }
       .nav-links a {
-        font-size: 20px;
+        font-size: 25px;
         
 
         /* padding: 8p/x; */
@@ -524,6 +581,45 @@ font-family:  cursive;
     
     }
 
+
+
+
+
+
+    
+  .header2-container{
+    margin-top: 200px;
+    height: 70vh;
+    background-color: black;
+    color: aliceblue;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
+  .images2{
+    box-shadow: 20px 20px 30px 30px;
+    width: 100%;
+    height:50vh;
+     
+  }
+  .header2-text{
+font-family:  cursive;
+    margin-bottom: 5rem;
+    
+    color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 12rem;
+    margin-top: 7rem;
+    width: 100%;
+
+
+   
+
+  }
 
 
    
