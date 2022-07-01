@@ -302,7 +302,7 @@ font-family:  cursive;
 
     color: aliceblue;
     margin-top: 3rem;
-    width: 100%;
+    /* width: 200%; */
   }
   .projects-1st-link{
     color: aliceblue;
@@ -333,6 +333,7 @@ font-family:  cursive;
     /* flex-wrap: wrap; */
 
     margin-top: 5rem;
+    /* width: 100%; */
   }
 
 
@@ -351,6 +352,40 @@ font-family:  cursive;
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -456,52 +491,102 @@ font-family:  cursive;
 
 
     /* *********************** nav   ******************** */
-    .nav-container{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        padding: 0 8px;
-        background: rgb(12, 0, 0);
-        height: 25vh;
-        width: 600;
-    }
-    .nav-brand{
-        font-size: 20px;
-        font-weight: bolder;
-        color:  aliceblue;
-        margin-left: 0rem;
-     font-family:  cursive;
-        
-    }
-    .nav-links{
-      margin-left:  0px;
-      
-      /* margin-right: rem; */
-
-        /* margin-left: auto; */
-        display: flex;
-        flex-wrap: wrap;
-        
-      
-    }
 
 
-    .nav-links li {
-    font-family:  cursive;
+
+    /* ***************************project link******** */
+    .projects-1st-link{
+      color: aliceblue;
+      background-color: rgb(30, 100, 30);
+      font-size: large;
+      text-decoration: none;
+      margin: 0rem;
+      border-radius: 50%;
+      padding: 1rem;
     
-        
-        display: inline-block;
-        font-weight: bold;
-       
-      }
-      .nav-links a {
-        font-size: 25px;
-        
+    }
+    .projects-2nd-link{
+      color: aliceblue;
+      background-color: rgb(26, 196, 26);
+      font-size: large;
+      text-decoration: none;
+      margin: 0rem;
+      border-radius: 50%;
+      padding: 1rem;
+      margin-top: 3rem;
+    
+    }
+    
 
-        /* padding: 8p/x; */
-         text-decoration: none;
-        color:  aliceblue;
-      }
+
+    .nav-container{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 8px;
+      background: rgb(12, 0, 0);
+      height: 10vh;
+      /* width: 100%; */
+  }
+  .nav-brand{
+      font-size: 25px;
+      margin-left: 0rem;
+      font-weight: bolder;
+  
+      color:  aliceblue;
+      margin-right: 5rem;
+  font-family:  cursive;
+      
+  }
+  .nav-links{
+
+      margin-right: 0rem;
+      margin-left: 2.5rem;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .nav-links li {
+  font-family:  cursive;
+      
+      display: inline-block;
+  
+      
+      font-weight: bold;
+     
+    }
+    .nav-links a {
+      border-radius: 50%;
+    
+      font-size: 15px;
+      padding: 5px;
+       text-decoration: none;
+       background-color: rgb(30, 100, 30);
+  
+      color:  aliceblue;
+      } 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -623,10 +708,12 @@ font-family:  cursive;
 
    
 
+
+
   }
 
 
-   
-   
-  
+
+
   } 
+/* 
