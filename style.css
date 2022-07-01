@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Koulen&family=Oswald:wght@300;500&family=Poppins:wght@300&family=Splash&display=swap');
 
 body{
-    background-color: rgb(204, 182, 182);
+    background-color: rgb(22, 2, 2);
+font-family:  cursive;
+color: aliceblue;
+    
 }
 .bigger-container{
     margin: 2rem;
     background-color: rgb(17, 1, 1);
 
 }
+
+
+
+
+/* **********************   nav        ***************** */
 .nav-container{
     display: flex;
     align-items: center;
@@ -52,6 +60,9 @@ font-family:  cursive;
     color:  aliceblue;
     }
 
+/* **********************  header      ***************** */
+
+
   .header-container{
     margin-top: 5rem;
     height: 80vh;
@@ -90,6 +101,9 @@ font-family:  cursive;
      
   }
 
+
+
+
   .button-projects{
     font-size: larger;
     background-color: rgb(30, 100, 30);
@@ -98,10 +112,29 @@ font-family:  cursive;
     width: 40%;
 
   }
+
+
+
+  .button-view-blogs{
+    
+    font-size: larger;
+    background-color: rgb(30, 100, 30);
+    border-radius: 50%;
+    height: 12vh;
+    width: 20%;
+    margin-left: 5rem;
+  
+    margin-top: 1rem;
+
+  }
 .button-link{
     color: aliceblue;
     text-decoration: none;
 }
+
+
+/* **********************   sections     ***************** */
+
 .section-container{
   margin-top: 3rem;
   font-size: larger;
@@ -153,7 +186,14 @@ font-family:  cursive;
 }
 hr{
   margin-top: 5rem;
+  color: aliceblue;
 }
+
+
+
+
+/* **********************   footer      ***************** */
+
 .footer-div{
   margin-top: 5rem;
   font-size: larger;
@@ -204,6 +244,66 @@ margin-bottom: 0.5rem;
     background-color:white;;
   }
 
+/* *****************    blog page     ************* */
+
+
+  .blogs-heading{
+    color: aliceblue;
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .blog-text{
+    background-color: rgb(30, 100, 30);
+   
+    border-radius: 20%;
+    color: aliceblue;
+
+  }
+
+
+  .header2-container{
+    margin-top: 5rem;
+    height: 80vh;
+    background-color: black;
+    color: aliceblue;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  
+  .images2{
+    /* border-radius: 50%; */
+    margin-top: 10rem;
+    box-shadow: 20px 20px 30px 30px;
+    width: 100%;
+    height:50vh;
+     
+  }
+  .header2-text{
+    margin-right:  auto ;
+font-family:  cursive;
+    margin-bottom: 5rem;
+    margin-right: 200px;
+    color: aliceblue;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+
+
+   
+
+  }
+
+
+/* *************    content   ************************** */
+  .content-div{
+font-family:  cursive;
+
+    color: aliceblue;
+    margin-top: 3rem;
+  }
 
 
 
@@ -222,7 +322,67 @@ margin-bottom: 0.5rem;
 
 
 
-  /* ******************responsive   &&&&&&&&&&& */
+
+  /* ******************responsive   *****************/
+
+
+  @media screen and (max-width: 1000px) { 
+    .bigger-container{
+        margin:1px;
+        background-color: rgb(17, 1, 1);
+    
+    }
+    html{
+      font-size: 70%;
+    }
+
+    
+    .header-container{
+      margin-top: 7rem;
+      height: 70vh;
+      background-color: black;
+      color: aliceblue;
+      display: grid;
+      grid-template-columns: 50% 50%;
+  
+    }
+    .header-text{
+      width: 100%;
+      font-size: small;
+      margin-right: 1rem;
+     
+  font-family:  cursive;
+  margin-right:0.5rem;
+     margin-bottom: 10rem; 
+   
+     display: flex;
+      justify-content: center;
+       align-items: flex-end; 
+      flex-direction: column;
+  
+    }
+    .header-image{
+  
+  
+      display: flex;
+      align-items: center;
+      
+     
+  
+  
+    }
+    
+    .images1{
+      margin-left: 2rem;
+      margin-bottom: 8rem;
+      border-radius: 50%;
+      
+      width: 70%;
+      height:35vh;
+       
+    }
+   
+  }
 
   
  @media screen and (max-width: 700px) {
@@ -231,6 +391,10 @@ margin-bottom: 0.5rem;
         background-color: rgb(17, 1, 1);
     
     }
+
+
+
+    /* *********************** nav   ******************** */
     .nav-container{
         display: flex;
         align-items: center;
@@ -277,6 +441,11 @@ margin-bottom: 0.5rem;
          text-decoration: none;
         color:  aliceblue;
       }
+
+
+
+    /* *********************** header  ******************** */
+
     
       .header-container{
         margin-top: 3rem;
@@ -334,6 +503,10 @@ margin-bottom: 0.5rem;
         color: aliceblue;
         text-decoration: none;
     }
+
+
+    /* *********************** section   ******************** */
+
     .section-heading{
       margin-bottom: 3rem;
       padding-top: 0.5rem;
